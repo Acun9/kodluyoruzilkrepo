@@ -1,0 +1,60 @@
+header,
+footer {
+    background-color: rgba(155, 164, 181, 0.3); /* %30 opaklıkta gri bir arka plan */
+    color: #212A3E;
+    position: fixed;
+    text-align: center;
+    list-style: inside;
+    width: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+header {
+    top: 0;
+}
+
+footer {
+    bottom: 0;
+}
+
+body {
+    background-color: #212A3E;
+    color: #F1F6F9;
+    padding: 20px;
+    margin-top: 40px; /* Header alanı için boşluk */
+    margin-bottom: 40px; /* Footer alanı için boşluk */
+}
+
+section {
+    display: flex;
+    height: calc(100vh - 120px); /* Header ve footer yüksekliği çıkarıldı */
+    background-color: #394867;
+}
+
+.left, .right {
+    background-color: #2B3A4D;
+    flex: 1; /* Her iki bölüm de eşit genişlikte olacak */
+    padding: 20px; /* İçerik için boşluk */
+    overflow-y: auto; /* İçerik taşarsa kaydırma çubuğu */
+}
+
+article {
+    text-align: left; /* Yazıların hizası */
+    padding: 10px; /* İçerik için biraz boşluk */
+    margin: 10px 0; /* Üst ve alt boşluk */
+    background-color: rgba(255, 255, 255, 0.1); /* Article arka planı */
+    border-radius: 5px; /* Köşeleri yuvarlaştır */
+}
+
+a {
+    color: #F1F6F9;
+    text-decoration: none; /* Alt çizgiyi kaldır */
+}
+
+a:hover {
+    text-decoration: underline; /* Hover durumunda alt çizgi ekle */
+}
+#red{
+    color: red;
+}
