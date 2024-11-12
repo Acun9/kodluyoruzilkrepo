@@ -1,0 +1,19 @@
+body {
+    background-color: white;
+    text-align: center;
+    unicode-bidi: isolate;
+}
+
+p {
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: start;
+    gap: 2px;
+}
+
+section {
+    margin-bottom: 2px;
+}
