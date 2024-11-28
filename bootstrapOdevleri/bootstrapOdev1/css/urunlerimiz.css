@@ -1,0 +1,42 @@
+body {
+  background-color: #e9ecef;
+}
+.card {
+  height: 450px; /* Kartların sabit yüksekliği */
+  width: 100%; /* Varsayılan genişlik (responsive uyumlu) */
+  max-width: 300px; /* Maksimum genişlik */
+  margin: 0 auto; /* Kartları merkezi hizalar */
+  display: flex;
+  flex-direction: column; /* Görsel ve metin dikey hizalanır */
+  justify-content: start;
+  border: none;
+  border-radius: 0px;
+  overflow: hidden;
+}
+
+.card-img-top {
+  width: 100%; /* Görsel genişliği kartı kaplar */
+  height: 300px; /* Sabit yükseklik */
+  object-fit: contain; /* Görsel kartı doldurur */
+}
+
+.card-body {
+  text-align: start; /* Metni ortala */
+  padding: 10px;
+}
+
+.card-title {
+  min-height: 50px; /* Ürün adı için sabit bir yükseklik */
+  margin-bottom: 10px; /* Altına boşluk ekle */
+  line-height: 1.2; /* Satır yüksekliği */
+}
+
+.card-text {
+  background-color: #343a40; /* Koyu arka plan rengi */
+  color: #ffffff; /* Beyaz metin rengi */
+  display: inline-block; /* Sadece metnin olduğu alanı kapla */
+  padding: 0px 5px; /* İç boşluk ekle */
+  border-radius: 5px; /* Köşeleri yuvarla */
+  font-size: 12px; /* Yazı boyutu */
+  margin-top: auto; /* Üstten boşluk */
+}
