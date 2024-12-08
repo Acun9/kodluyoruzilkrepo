@@ -1,6 +1,7 @@
 body {
   background-color: #e9ecef;
 }
+
 .card {
   height: 450px; /* Kartların sabit yüksekliği */
   width: 100%; /* Varsayılan genişlik (responsive uyumlu) */
